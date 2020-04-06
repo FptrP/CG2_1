@@ -1,0 +1,43 @@
+texture magic1t "tileset/Sliced/fx_24x24/oryx_16bit_fantasy_fx2_15.png"
+texture floor1_tex "tileset/Sliced/world_24x24/oryx_16bit_fantasy_world_178.png"
+texture floor2_tex "tileset/Sliced/world_24x24/oryx_16bit_fantasy_world_1969.png"
+texture creatures "tileset/creatures_trans.png"
+texture start_chest_tex "tileset/Sliced/world_24x24/oryx_16bit_fantasy_world_261.png"
+texture chest_tex "tileset/Sliced/world_24x24/oryx_16bit_fantasy_world_262.png"
+texture grave_tex "tileset/Sliced/world_24x24/oryx_16bit_fantasy_world_87.png"
+texture door_tex "tileset/Sliced/world_24x24/oryx_16bit_fantasy_world_205.png
+
+
+tile magic1 magic1t
+tile floor1 floor1_tex
+tile floor2 floor2_tex
+tile start_chest start_chest_tex
+tile chest chest_tex
+tile grave grave_tex
+tile door door_tex
+
+tilecut player1 creatures 336 48 24 24
+tilecut player2 creatures 336 72 24 24
+tilecut enemy1 creatures 72 0 24 24
+tilecut enemy2 creatures 72 24 24 24
+tilecut charger1 creatures 240 240 24 24 
+tilecut charger2 creatures 240 264 24 24
+tilecut fire1 creatures 384 480 24 24
+tilecut fire2 creatures 384 504 24 24
+tilecut demon1 creatures 192 240 24 24
+tilecut demon2 creatures 192 264 24 24
+tilecut tp1 creatures 0 480 24 24
+tilecut tp2 creatures 0 502 24 24
+tilecut npc1 creatures 0 0 24 24
+tilecut npc2 creatures 0 24 24 24
+
+animation player_anim player1 player2
+animation enemy_anim enemy1 enemy2
+animation charger_anim charger1 charger2
+animation fire_anim fire1 fire2
+animation firedemon_anim demon1 demon2
+animation teleport_anim tp1 tp2
+animation npc_anim npc1 npc2
+
+
+

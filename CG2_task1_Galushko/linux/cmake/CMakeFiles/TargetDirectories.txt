@@ -1,0 +1,3 @@
+/home/fptr/Code/c++/CG2_task1_Galushko/linux/cmake/CMakeFiles/rebuild_cache.dir
+/home/fptr/Code/c++/CG2_task1_Galushko/linux/cmake/CMakeFiles/cg2game.dir
+/home/fptr/Code/c++/CG2_task1_Galushko/linux/cmake/CMakeFiles/edit_cache.dir
